@@ -8,6 +8,20 @@
 
 ### See also [PyTorch Implementation for BYOL - Bootstrap Your Own Latent: A New Approach to Self-Supervised Learning](https://github.com/sthalles/PyTorch-BYOL).
 
+### **Original Repository:** [SimCLR by sthalles](https://github.com/sthalles/SimCLR)
+
+### **Modifications by:** [Irem Urhan](https://github.com/iremurhan/pytorch_simclr)
+
+---
+
+## **🔧 What's New in This Version?**
+
+This repository is a **modified version of the original SimCLR** implementation by [sthalles](https://github.com/sthalles/SimCLR), with the following improvements:
+
+- **Docker & HPC Compatibility** 🐳
+- **Updated Dependency Management** 🛠️ 
+- **Removed Broken Google Colab Links** ❌
+
 ## Installation
 
 ```
@@ -45,3 +59,4 @@ Note that SimCLR benefits from **longer training**.
 | Logistic Regression (Adam) | STL10   | SimCLR            | [ResNet-18](https://drive.google.com/open?id=14_nH2FkyKbt61cieQDiSbBVNP8-gtwgF) | 512                    | 128                            | 100    | 74.45  |
 | Logistic Regression (Adam) | CIFAR10 | SimCLR            | [ResNet-18](https://drive.google.com/open?id=1lc2aoVtrAetGn0PnTkOyFzPCIucOJq7C) | 512                    | 128                            | 100    | 69.82  |
 | Logistic Regression (Adam) | STL10   | SimCLR            | [ResNet-50](https://drive.google.com/open?id=1ByTKAUsdm_X7tLcii6oAEl5qFRqRMZSu) | 2048                   | 128                            | 50     | 70.075 |
+
