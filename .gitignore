@@ -1,0 +1,24 @@
+# Virtual environment files
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS system files
+.DS_Store
+
+# Training log files
+runs/
+*.log
+
+# Model checkpoint files
+*.tar
+
+# Datasets
+datasets/
+
+# Editor temporary files
+*.swp
+*.swo
